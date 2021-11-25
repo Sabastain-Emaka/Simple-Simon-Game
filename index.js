@@ -86,26 +86,26 @@
 
             // this spits out a random message when you get the sequence correct
             var winner = [
-                "You is smart! You is kind! You is important!",
+                "You won Jevi!",
                 "Shake and Bake!",
-                "You wake up in the morning and piss excellence!",
-                "You can do it! All night long!",
-                "You're good enough! You're smart enough! And, dog on it, people like you!",
-                "Superstar!",
-                "Stratgery!",
-                "You're my boy, Blue!",
-                "That escalated quickly!",
-                "Yeah, that's the ticket!",
-                "Well, isn't THAT special?",
-                "Thank you, Chuck Norris!",
-                "Nobody makes you bleed your own blood. Nobody!",
-                "Moisture is the essence of wetness, and wetness is the essence of beauty.",
-                "Orange mocha frappuccino!",
-                "You is talking loco and I like it!",
-                "Oh, snap!",
-                "You smart! You loyal! You're a genius!",
+                "You did well in Algorithms!",
+                "Yes, we can!",
+                "You are doing well i gaming!",
+                "Great Star You are!",
+                "Strategy!",
+                "You are a good boy!",
+                "Is the game going well!",
+                "You Won a ticket to Wonders of the Cross !",
+                "Hope That's Special",
+                "Thank you, Ambusi!",
+                "Abang is a great place to be!",
+                "Refreshment from the Presence of Christ",
+                "December retreat is coming!",
+                "Get ready to be there!",
+                "I will be there!",
+                "Deeper Life Bible Church Nearest to you",
                 "Another one",
-                "The key to more success is winning at Simple Simon"
+                "Ps Dr William F Kumuyi Preaching"
             ];
             var winnerCount = 0;
             var winnerSequence = [];
