@@ -1,10 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Simple Simon Game</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="/index.css">
 </head>
 <body>
 
+<!-- Header -->
+<div id="header">
+    <h1>Simple Simon Game</h1>
+</div>
+
+<!-- Empty div for formatting purposes -->
+<div class="col-md-3">
+</div>
+
+<!-- Start Button -->
+<div class="col-md-6-offset-4">
+    <button type="submit" id="start">GO!</button>
+</div>
+
+<!-- Motivation -->
+<div id = "motivation">
+
+</div>
+
+<!-- Fail Sound -->
+<audio id="fail">
+    <source src="/audio/price-is-right-losing-horn.mp3">
+</audio>
+
+<!-- Game -->
+<div id="game" class=" container col-md-6-offset-4">
+    <div id="row-1">
+        <div id="red">
+            <audio id="beep">
+                <source src="/audio/red-sound.m4a">
+            </audio>
+        </div>
+        <div id="yellow">
+            <audio id="beep">
+                <source src="/audio/yellow-sound.m4a">
+            </audio>
+        </div>
+    </div>
+    <div id="row-2">
+        <div id="green">
+            <audio id="beep">
+                <source src="/audio/green-sound.m4a">
+            </audio>
+        </div>
+        <div id="blue">
+            <audio id="beep">
+                <source src="/audio/blue-sound.m4a">
+            </audio>
+        </div>
+    </div>
+</div>
+
+<!-- Empty Div for formatting purposes -->
+<div class="col-md-3">
+</div>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script src="/index.js"></script>
 </body>
 </html>
