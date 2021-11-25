@@ -1,3 +1,13 @@
+#blue{
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    border: solid 5px black;
+    padding: 1em;
+    margin: 1em;
+}
+
+
 .h1{
 
 }
