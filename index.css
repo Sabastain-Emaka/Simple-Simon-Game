@@ -28,3 +28,28 @@ text-align: center;
 h2 {
     text-align: center;
 }
+#red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: solid 5px black;
+    padding: 1em;
+    margin: 1em;
+}
+
+#row-1 {
+    display: inline-block;
+}
+
+#row-2 {
+    display: inline-block;
+}
+
+#yellow {
+    background-color: yellow;
+    width: 200px;
+    height: 200px;
+    border: solid 5px black;
+    padding: 1em;
+    margin: 1em;
+}
