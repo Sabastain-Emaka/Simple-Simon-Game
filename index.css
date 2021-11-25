@@ -7,7 +7,24 @@
     margin: 1em;
 }
 
+#game{
+    width: 500px;
+    height: 450px;
+    background-color: black;
+}
+#green {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border: solid 5px black;
+    padding: 1em;
+    margin: 1em;
+}
 
-.h1{
+h1{
+text-align: center;
+}
 
+h2 {
+    text-align: center;
 }
